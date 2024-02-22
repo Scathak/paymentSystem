@@ -1,1 +1,1 @@
-# paymentSystem
+A simple payment system for a small retail outlet. It started as a hobby project some time ago. All constants are fiction. Several tax strategies and discounts are applied to the order being processed.
