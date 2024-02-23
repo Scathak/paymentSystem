@@ -1,1 +1,2 @@
-A simple payment system for a small retail outlet. It started as a hobby project some time ago. All constants are fiction. Several tax strategies and discounts are applied to the order being processed.
+A simple payment system for a small retail outlet. It started as a hobby project some time ago. All constants are fiction. Several tax strategies and discounts are applied to the order being processed.The project originated from the following books: Joe Ocampo, Jason Meridth, et al.	Pablo's SOLID Software Development, 2009. Robert C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship, 2009.
+

@@ -1,294 +1,452 @@
 {
-  "Algeria": {
-    "standard_VAT_rate": 19,
-    "reduced_rates": [ 9 ]
-  },
-  "Antigua and Barbuda": {
-    "standard_VAT_rate": 15,
-    "reduced_rate": [ 14 ]
-  },
-  "Andorra": {
-    "standard_VAT_rate": 9.5,
-    "reduced_rates": [ 4.5, 2.5, 1 ]
-  },
-  "Argentina": {
-    "standard_VAT_rate": 27,
-    "reduced_rates": [ 21, 10.5 ]
-  },
-  "Armenia": {
-    "standard_VAT_rate": 20
-  },
-  "Aruba": {
-    "standard_VAT_rate": 7
-  },
-  "Australia": {
-    "standard_VAT_rate": 10
-  },
-  "Azerbaijan": {
-    "standard_VAT_rate": 18
-  },
-  "Bahamas": {
-    "standard_VAT_rate": 10
-  },
-  "Bahrain": {
-    "standard_VAT_rate": 10
-  },
-  "Bangladesh": {
-    "standard_VAT_rate": 15,
-    "reduced_rates": [ 10, 7.5, 5, 2, 4, 2 ]
-  },
-  "Barbados": {
-    "standard_VAT_rate": 22,
-    "reduced_rates": [ 17.5, 10 ]
-  },
-  "Belize": {
-    "standard_VAT_rate": 12.5
-  },
-  "Bermuda": {
-    "standard_VAT_rate": 0
-  },
-  "Bolivia": {
-    "standard_VAT_rate": 13
-  },
-  "Botswana": {
-    "standard_VAT_rate": 14
-  },
-  "Brazil": {
-    "standard_VAT_rate": 25 ,
-    "reduced_rates": [17, 7 ]
-  },
-  "British Virgin Islands": {
-    "standard_VAT_rate": 0
-  },
-  "Brunei": {
-    "standard_VAT_rate": 0
-  },
-  "Bulgaria": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 10 ]
-  },
-  "Canada": {
-    "standard_VAT_rate": 5
-  },
-  "Cayman Islands": {
-    "standard_VAT_rate": 0
-  },
-  "Chile": {
-    "standard_VAT_rate": 19
-  },
-  "China": {
-    "standard_VAT_rate": 13,
-    "reduced_rates": [9, 6, 5, 2, 3, 1.5, 0.5]
-  },
-  "Colombia": {
-    "standard_VAT_rate": 19,
-    "reduced_rates": [ 5 ]
-  },
-  "Cook Islands": {
-    "standard_VAT_rate": 15
-  },
-  "Costa Rica": {
-    "standard_VAT_rate": 13,
-    "reduced_rates": [ 4, 2, 1 ]
-  },
-  "Curaçao": {
-    "standard_VAT_rate": 9,
-    "reduced_rates": [ 7, 6 ]
-  },
-  "UAE": {
-    "standard_VAT_rate": 5
-  },
-  "Ecuador": {
-    "standard_VAT_rate": 12
-  },
-  "Egypt": {
-    "standard_VAT_rate": 14,
-    "reduced_rates": [ 5 ]
-  },
-  "El Salvador": {
-    "standard_VAT_rate": 13
-  },
-  "Equatorial Guinea": {
-    "standard_VAT_rate": 15,
-    "reduced_rates": [ 6 ]
-  },
-  "Ethiopia": {
-    "standard_VAT_rate": 15
-  },
-  "Faroe Islands": {
-    "standard_VAT_rate": 25
-  },
-  "Georgia": {
-    "standard_VAT_rate": 18
-  },
-  "Gibraltar": {
-    "standard_VAT_rate": 0
-  },
-  "Guatemala": {
-    "standard_VAT_rate": 12
-  },
-  "Guernsey": {
-    "standard_VAT_rate": 0
-  },
-  "Hong Kong": {
-    "standard_VAT_rate": 0
-  },
-  "India": {
-    "standard_VAT_rate": 28,
-    "reduced_rates": [ 18, 12, 5, 3, 1.5, 0.25 ]
-  },
-  "Indonesia": {
-    "standard_VAT_rate": 11
-  },
-  "Iraq": {
-    "standard_VAT_rate": 300,
-    "reduced_rates": [ 9 ]
-  },
-  "Isle of Man": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 5 ]
-  },
-  "Israel": {
-    "standard_VAT_rate": 17
-  },
-  "Japan": {
-    "standard_VAT_rate": 10,
-    "reduced_rates": [ 8 ]
-  },
-  "Jersey": {
-    "standard_VAT_rate": 5
-  },
-  "Kazakhstan": {
-    "standard_VAT_rate": 12
-  },
-  "South Korea": {
-    "standard_VAT_rate": 10
-  },
-  "Kuwait": {
-    "standard_VAT_rate": 0
-  },
-  "Laos": {
-    "standard_VAT_rate": 7
-  },
-  "Lebanon": {
-    "standard_VAT_rate": 11
-  },
-  "Malaysia": {
-    "standard_VAT_rate": 10,
-    "reduced_rates": [ 6 ]
-  },
-  "Mauritania": {
-    "standard_VAT_rate": 16
-  },
-  "Mauritius": {
-    "standard_VAT_rate": 15
-  },
-  "Mexico": {
-    "standard_VAT_rate": 16,
-    "reduced_rate": [ 8 ]
-  },
-  "Morocco": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 14, 10, 7 ]
-  },
-  "New Zealand": {
-    "standard_VAT_rate": 15
-  },
-  "Nigeria": {
-    "standard_VAT_rate": 7.5
-  },
-  "Oman": {
-    "standard_VAT_rate": 5
-  },
-  "Pakistan": {
-    "standard_VAT_rate": 18,
-    "reduced_rates": [ 12, 10, 5, 2, 1 ]
-  },
-  "Panama": {
-    "standard_VAT_rate": 15,
-    "supplementary_rates": [ 10, 7 ]
-  },
-  "Peru": {
-    "standard_VAT_rate": 18,
-    "reduced_rates": [ 8 ]
-  },
-  "Philippines": {
-    "standard_VAT_rate": 12
-  },
-  "Puerto Rico": {
-    "standard_VAT_rate": 11.5,
-    "reduced_rates": [ 1 ]
-  },
-  "Qatar": {
-    "standard_VAT_rate": 0
-  },
-  "Russia": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 10 ]
-  },
-  "Saudi Arabia": {
-    "standard_VAT_rate": 15
-  },
-  "Singapore": {
-    "standard_VAT_rate": 9
-  },
-  "Sri Lanka": {
-    "standard_VAT_rate": 18
-  },
-  "Taiwan": {
-    "standard_VAT_rate": 5
-  },
-  "Tanzania": {
-    "standard_VAT_rate": 18
-  },
-  "Tajikistan": {
-    "standard_VAT_rate": 14,
-    "reduced_rates": [ 10, 7, 5 ]
-  },
-  "Thailand": {
-    "standard_VAT_rate": 7
-  },
-  "Tunisia": {
-    "standard_VAT_rate": 19,
-    "reduced_rates": [ 13, 7 ]
-  },
-  "Turkey": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 10, 1 ]
-  },
-  "Turks and Caicos": {
-    "standard_VAT_rate": 0
-  },
-  "Ukraine": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 14, 7 ]
-  },
-  "Uganda": {
-    "standard_VAT_rate": 18
-  },
-  "United Kingdom": {
-    "standard_VAT_rate": 20,
-    "reduced_rates": [ 5 ]
-  },
-  "Uruguay": {
-    "standard_VAT_rate": 22,
-    "reduced_rates": [ 10 ]
-  },
-  "USA": {
-    "standard_VAT_rate": 7.25,
-    "reduced_rates": [ 2.9 ]
-  },
-  "Uzbekistan": {
-    "standard_VAT_rate": 12
-  },
-  "Vanuatu": {
-    "standard_VAT_rate": 15
-  },
-  "Venezuela": {
-    "standard_VAT_rate": 16,
-    "reduced_rates": [ 8 ]
-  },
-  "Vietnam": {
-    "standard_VAT_rate": 8
-  }
+	"Countries": {
+
+			"Algeria": {
+				"standard_VAT_rate": 19,
+				"reduced_rates": [
+					9
+				]
+			},
+			"Antigua_and_Barbuda": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": [
+					14
+				]
+			},
+			"Andorra": {
+				"standard_VAT_rate": 9.5,
+				"reduced_rates": [
+					4.5,
+					2.5,
+					1
+				]
+			},
+			"Argentina": {
+				"standard_VAT_rate": 27,
+				"reduced_rates": [
+					21,
+					10.5
+				]
+			},
+			"Armenia": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": []
+			},
+			"Aruba": {
+				"standard_VAT_rate": 7,
+				"reduced_rates": []
+			},
+			"Australia": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": []
+			},
+			"Azerbaijan": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": []
+			},
+			"Bahamas": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": []
+			},
+			"Bahrain": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": []
+			},
+			"Bangladesh": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": [
+					10,
+					7.5,
+					5,
+					2,
+					4,
+					2
+				]
+			},
+			"Barbados": {
+				"standard_VAT_rate": 22,
+				"reduced_rates": [
+					17.5,
+					10
+				]
+			},
+			"Belize": {
+				"standard_VAT_rate": 12.5,
+				"reduced_rates": []
+			},
+			"Bermuda": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Bolivia": {
+				"standard_VAT_rate": 13,
+				"reduced_rates": []
+			},
+			"Botswana": {
+				"standard_VAT_rate": 14,
+				"reduced_rates": []
+			},
+			"Brazil": {
+				"standard_VAT_rate": 25,
+				"reduced_rates": [
+					17,
+					7
+				]
+			},
+			"British_Virgin_Islands": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Brunei": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Bulgaria": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					10
+				]
+			},
+			"Canada": {
+				"standard_VAT_rate": 5,
+				"reduced_rates": []
+			},
+			"Cayman_Islands": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Chile": {
+				"standard_VAT_rate": 19,
+				"reduced_rates": []
+			},
+			"China": {
+				"standard_VAT_rate": 13,
+				"reduced_rates": [
+					9,
+					6,
+					5,
+					2,
+					3,
+					1.5,
+					0.5
+				]
+			},
+			"Colombia": {
+				"standard_VAT_rate": 19,
+				"reduced_rates": [
+					5
+				]
+			},
+			"Cook_Islands": {
+				"standard_VAT_rate": 15
+			},
+			"Costa_Rica": {
+				"standard_VAT_rate": 13,
+				"reduced_rates": [
+					4,
+					2,
+					1
+				]
+			},
+			"Curaçao": {
+				"standard_VAT_rate": 9,
+				"reduced_rates": [
+					7,
+					6
+				]
+			},
+			"UAE": {
+				"standard_VAT_rate": 5,
+				"reduced_rates": []
+			},
+			"Ecuador": {
+				"standard_VAT_rate": 12,
+				"reduced_rates": []
+			},
+			"Egypt": {
+				"standard_VAT_rate": 14,
+				"reduced_rates": [
+					5
+				]
+			},
+			"El_Salvador": {
+				"standard_VAT_rate": 13,
+				"reduced_rates": []
+			},
+			"Equatorial_Guinea": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": [
+					6
+				]
+			},
+			"Ethiopia": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": []
+			},
+			"Faroe_Islands": {
+				"standard_VAT_rate": 25,
+				"reduced_rates": []
+			},
+			"Georgia": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": []
+			},
+			"Gibraltar": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Guatemala": {
+				"standard_VAT_rate": 12,
+				"reduced_rates": []
+			},
+			"Guernsey": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Hong_Kong": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"India": {
+				"standard_VAT_rate": 28,
+				"reduced_rates": [
+					18,
+					12,
+					5,
+					3,
+					1.5,
+					0.25
+				]
+			},
+			"Indonesia": {
+				"standard_VAT_rate": 11,
+				"reduced_rates": []
+			},
+			"Iraq": {
+				"standard_VAT_rate": 300,
+				"reduced_rates": [
+					9
+				]
+			},
+			"Isle_of_Man": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					5
+				]
+			},
+			"Israel": {
+				"standard_VAT_rate": 17,
+				"reduced_rates": []
+			},
+			"Japan": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": [
+					8
+				]
+			},
+			"Jersey": {
+				"standard_VAT_rate": 5,
+				"reduced_rates": []
+			},
+			"Kazakhstan": {
+				"standard_VAT_rate": 12,
+				"reduced_rates": []
+			},
+			"South_Korea": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": []
+			},
+			"Kuwait": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Laos": {
+				"standard_VAT_rate": 7,
+				"reduced_rates": []
+			},
+			"Lebanon": {
+				"standard_VAT_rate": 11,
+				"reduced_rates": []
+			},
+			"Malaysia": {
+				"standard_VAT_rate": 10,
+				"reduced_rates": [
+					6
+				]
+			},
+			"Mauritania": {
+				"standard_VAT_rate": 16,
+				"reduced_rates": []
+			},
+			"Mauritius": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": []
+			},
+			"Mexico": {
+				"standard_VAT_rate": 16,
+				"reduced_rates": [
+					8
+				]
+			},
+			"Morocco": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					14,
+					10,
+					7
+				]
+			},
+			"New_Zealand": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": []
+			},
+			"Nigeria": {
+				"standard_VAT_rate": 7.5,
+				"reduced_rates": []
+			},
+			"Oman": {
+				"standard_VAT_rate": 5,
+				"reduced_rates": []
+			},
+			"Pakistan": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": [
+					12,
+					10,
+					5,
+					2,
+					1
+				]
+			},
+			"Panama": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": [
+					10,
+					7
+				]
+			},
+			"Peru": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": [
+					8
+				]
+			},
+			"Philippines": {
+				"standard_VAT_rate": 12,
+				"reduced_rates": []
+			},
+			"Puerto_Rico": {
+				"standard_VAT_rate": 11.5,
+				"reduced_rates": [
+					1
+				]
+			},
+			"Qatar": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Russia": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					10
+				]
+			},
+			"Saudi_Arabia": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": []
+			},
+			"Singapore": {
+				"standard_VAT_rate": 9,
+				"reduced_rates": []
+			},
+			"Sri_Lanka": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": []
+			},
+			"Taiwan": {
+				"standard_VAT_rate": 5,
+				"reduced_rates": []
+			},
+			"Tanzania": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": []
+			},
+			"Tajikistan": {
+				"standard_VAT_rate": 14,
+				"reduced_rates": [
+					10,
+					7,
+					5
+				]
+			},
+			"Thailand": {
+				"standard_VAT_rate": 7,
+				"reduced_rates": []
+			},
+			"Tunisia": {
+				"standard_VAT_rate": 19,
+				"reduced_rates": [
+					13,
+					7
+				]
+			},
+			"Turkey": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					10,
+					1
+				]
+			},
+			"Turks_and_Caicos": {
+				"standard_VAT_rate": 0,
+				"reduced_rates": []
+			},
+			"Ukraine": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					14,
+					7
+				]
+			},
+			"Uganda": {
+				"standard_VAT_rate": 18,
+				"reduced_rates": []
+			},
+			"United_Kingdom": {
+				"standard_VAT_rate": 20,
+				"reduced_rates": [
+					5
+				]
+			},
+			"Uruguay": {
+				"standard_VAT_rate": 22,
+				"reduced_rates": [
+					10
+				]
+			},
+			"USA": {
+				"standard_VAT_rate": 7.25,
+				"reduced_rates": [
+					2.9
+				]
+			},
+			"Uzbekistan": {
+				"standard_VAT_rate": 12,
+				"reduced_rates": []
+			},
+			"Vanuatu": {
+				"standard_VAT_rate": 15,
+				"reduced_rates": []
+			},
+			"Venezuela": {
+				"standard_VAT_rate": 16,
+				"reduced_rates": [
+					8
+				]
+			},
+			"Vietnam": {
+				"standard_VAT_rate": 8,
+				"reduced_rates": []
+			}
+	}
 }
