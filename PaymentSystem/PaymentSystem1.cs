@@ -1,13 +1,11 @@
-using System.Xml.Linq;
-
-public interface IDiscountCalculator 
+public interface IDiscountCalculator
 {
 	decimal CalculateDiscount(Order order);
 }
-public interface ITaxStrategy 
+public interface ITaxStrategy
 {
 	public string Name { get; }
-	decimal FindTaxAmount (Order order, TaxInfoContainer taxContainer);
+	decimal FindTaxAmount(Order order, TaxInfoContainer taxContainer);
 }
 public class OrderProcessor
 {
@@ -22,22 +20,25 @@ public class OrderProcessor
 		_taxContainer = taxContainer;
 		_taxStrategyByCountry = [new AlgeriaTaxStrategy { }, new USATaxStrategy { }, new United_KingdomTaxStrategy { }];
 	}
-	public decimal CalculateTotal(Order order){
+	public decimal CalculateTotal(Order order)
+	{
 		decimal itemTotal = order.GetOrderTotal();
 		decimal discountAmount = _discountCalculator.CalculateDiscount(order);
 
 		var _taxStrategy = GetTaxStrategyByCountry(order.GetOrderCountry());
 
 		decimal taxAmount = _taxStrategy.FindTaxAmount(order, _taxContainer);
-		return itemTotal - discountAmount + taxAmount;		
-	}	
+		return itemTotal - discountAmount + taxAmount;
+	}
 	public ITaxStrategy GetTaxStrategyByCountry(string country)
 	{
 		return _taxStrategyByCountry.Find(obj => obj.Name == (country + "TaxStrategy"));
 	}
 }
-public class DiscountCalculatorAdapter : IDiscountCalculator {
-	public decimal CalculateDiscount (Order order) {
+public class DiscountCalculatorAdapter : IDiscountCalculator
+{
+	public decimal CalculateDiscount(Order order)
+	{
 		return DiscountCalculator.CalculateDiscount(order);
 	}
 }

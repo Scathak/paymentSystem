@@ -54,11 +54,11 @@ public class VATRates
 public class TaxInfoContainer
 {
 	public VATRatesByCountry? TaxInfo { get; set; }
-	
+
 	public decimal GetVATRate(string countryName, string type, int index)
 	{
 		decimal output = 0;
-		if(TaxInfo != null && TaxInfo.Countries.ContainsKey(countryName))
+		if (TaxInfo != null && TaxInfo.Countries.ContainsKey(countryName))
 		{
 			VATRates countryInfo = TaxInfo.Countries[countryName];
 			output = type == "standard_VAT_rate" ? countryInfo.standard_VAT_rate : countryInfo.reduced_rates[index];
