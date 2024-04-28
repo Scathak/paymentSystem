@@ -1,4 +1,6 @@
 
+namespace PaymentSystem
+{
 	public class DiscountOnTotal : IDiscountCalculator
 	{
 		public decimal CalculateDiscount(Order order)
@@ -21,3 +23,4 @@
 			return order.GetOrderPricePerUnit() * (1 - discountPercent);
 		}
 	}
+}
